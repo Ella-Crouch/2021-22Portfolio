@@ -12,7 +12,7 @@ body {
 	margin: 0 auto;
 }
 .header {
-	background: #D63B20;
+	background: #DB6B6B;
 	text-align: center;
 	margin: 0px;
 	padding: 5;
@@ -31,11 +31,20 @@ body {
 	text-align: center;
 }
 .content {
-	background: #C5F5C4;
+	background: #B2DA6C;
 	margin: 0px;
 	float: left;
 	width: 100%;
 	text-align: center;
+}
+a:link {
+     color: #97B3DA;
+}
+a:visited {
+     color: #7292DA;
+}
+a:hover, a:active, a:focus { 
+     text-decoration: underline, bold;
 }
 .footer {
 	background: #4358D6;
